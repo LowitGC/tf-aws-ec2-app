@@ -14,5 +14,5 @@ variable "instance_name" {
 }
 
 variable "assume_role_arn" {
-  
+
 }
