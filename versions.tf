@@ -1,4 +1,13 @@
 terraform {
+/*
+  cloud {
+    organization = "gowdigital"
+
+    workspaces {
+      name = "tf-aws-ec2-app"
+    }
+  }
+*/
 
   required_providers {
     aws = {

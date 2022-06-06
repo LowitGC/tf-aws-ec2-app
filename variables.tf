@@ -9,6 +9,13 @@ variable "instance_name" {
   default     = "ExampleAppServerInstance"
 }
 
+variable "instance_type" {
+  description = "type of the ec2 instance"
+  type = string
+  default = "t2.micro"
+  
+}
+
 variable "assume_role_arn" {
   description = "Cross Account Assume Role ARN"
   type        = string
