@@ -13,9 +13,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
-/*
 variable "assume_role_arn" {
   description = "cross account role arn"
   default     = ""
 }
-*/
