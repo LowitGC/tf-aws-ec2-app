@@ -10,5 +10,8 @@ variable "instance_name" {
 }
 
 variable "assume_role_arn" {
+  description = "Cross Account Assume Role ARN"
+  type        = string
+  default     = ""
 
 }
