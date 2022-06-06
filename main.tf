@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
   assume_role {
     session_name = "Terraform--LCG-Sessions"
-    role_arn     = var.assume_role_arn
+    role_arn     = "arn:aws:iam::437537472004:role/PowerUser"
   }
 }
 
