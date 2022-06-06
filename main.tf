@@ -1,5 +1,6 @@
 provider "aws" {
-  region = var.region
+  region     = var.region
+  sts_region = var.region
   assume_role {
     session_name = "LCG-TF-Sessions"
     role_arn     = var.assume_role_arn
