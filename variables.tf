@@ -6,7 +6,14 @@ variable "aws_region" {
 variable "instance_name" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "ExampleAppServerInstance"
+  default     = "AppServerInstance-2"
+}
+
+variable "instance_type" {
+  description = "type of the ec2 instance"
+  type = string
+  default = "t2.small"
+  
 }
 
 variable "assume_role_arn" {
