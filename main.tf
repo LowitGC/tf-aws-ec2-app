@@ -1,9 +1,5 @@
 provider "aws" {
   region = var.region
-  assume_role {
-    session_name = "Terraform--LCG-Sessions"
-    role_arn     = var.assume_role_arn
-  }
 }
 
 data "aws_ami" "ubuntu" {
