@@ -1,11 +1,3 @@
-output "instance_ami" {
-  value = aws_instance.ubuntu.ami
-}
-
-output "instance_arn" {
-  value = aws_instance.ubuntu.arn
-}
-
 output "instance_id" {
   value       = aws_instance.app_server.id
   description = "ID of the EC2 Instance"
